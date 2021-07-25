@@ -7,7 +7,8 @@ import NavBarPage from "./pages/commons/navBar";
 function App() {
   return (
     <React.Fragment>
-      <NavBarPage/>
+      {/* 상단 메뉴 바 */}
+      <NavBarPage/> 
       
       <Router>
           <Switch>

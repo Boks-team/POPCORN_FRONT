@@ -1,11 +1,16 @@
 import React from "react";
 
-const NavBar = () => {
+import NavBar from "./navBar.css";
+
+const NavBarComponent = () => {
     return (
         <React.Fragment>
-            <div>navbar</div>
+            <NavBar>
+                dd
+            </NavBar>
+            asdfd
         </React.Fragment>
     )
 };
 
-export default NavBar;
+export default NavBarComponent;

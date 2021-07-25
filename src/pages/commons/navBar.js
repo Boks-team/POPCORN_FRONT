@@ -15,7 +15,6 @@ const NavBarPage = () => {
   return (
     <React.Fragment>
       <NavBar/>
-      
     </React.Fragment>
   )
 };
