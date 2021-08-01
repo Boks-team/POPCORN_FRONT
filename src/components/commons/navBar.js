@@ -6,9 +6,8 @@ const NavBarComponent = () => {
     return (
         <React.Fragment>
             <NavBar>
-                dd
+                네비게이션 바
             </NavBar>
-            asdfd
         </React.Fragment>
     )
 };
