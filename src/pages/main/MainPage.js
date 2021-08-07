@@ -1,13 +1,16 @@
 import React from "react";
-import { Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, useRouteMatch } from "react-router-dom";
 
 import Main from "../../components/main/MainComponent";
+import TestPage from "../test/TestPage";
 
-const MainPage = () => {
+const MainPage = (props) => {
+    
+    // const match = useRouteMatch();
 
     return (
         <Main/>
     );
 }
 
-export default Main;
+export default  MainPage;
