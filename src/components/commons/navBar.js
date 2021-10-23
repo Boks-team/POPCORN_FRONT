@@ -7,8 +7,11 @@ const NavBarComponent = () => {
     return (
         <React.Fragment>
             <NavBar>
-                네비게이션 바 // html, css
-                <Link to="/test">테스트로</Link>
+                <div id="names">
+                    <Link to="/">홈</Link>
+                    <Link to="/test">테스트로</Link>
+                    <Link to="/board">게시판</Link>
+                </div>
             </NavBar>
         </React.Fragment>
     )
